@@ -36,11 +36,11 @@ public class MainActivity extends ActionBarActivity {
         //BroadcastReceiver the_receiver = new MyReceiver();
         //the_receiver.onReceive(context,intent);
 
-
     }
 
     private void copy2sdcard() throws IOException {
         final int songID = R.raw.allegro;
+
 
         String path = Environment.getExternalStorageDirectory() + "/mySongs";
         File dir = new File(path);
